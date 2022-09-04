@@ -1,4 +1,11 @@
 {
-    "route": "/calendar.html",
-    "rewrite": "/index.html"
-  }
+    "routes": [
+        {
+            "route": "/calendar.html",
+            "rewrite": "/index.html"
+        },{
+            "route": "/.well-known/did-configuration.json",
+            "rewrite": "/index.html"
+        }
+    ]
+}
