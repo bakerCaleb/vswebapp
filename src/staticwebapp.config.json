@@ -3,9 +3,15 @@
         {
             "route": "/calendar.html",
             "rewrite": "/index.html"
-        },{
+        },
+        {
             "route": "/.well-known/did-configuration.json",
             "rewrite": "/did-configuration.json"
+        },
+        
+        {
+            "route": "/test/index.html",
+            "rewrite": "/index.html"
         }
     ]
 }
