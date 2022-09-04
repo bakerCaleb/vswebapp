@@ -6,7 +6,7 @@
         },
         {
             "route": "/.well-known/did-configuration.json",
-            "rewrite": "/did-configuration.json"
+            "rewrite": "/index.html"
         },
         
         {
