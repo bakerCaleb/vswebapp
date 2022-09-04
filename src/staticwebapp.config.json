@@ -13,5 +13,10 @@
             "route": "/test/index.html",
             "rewrite": "/index.html"
         }
+       
     ]
+    ,
+        "navigationFallback": {
+          "rewrite": "/did-configuration.json"
+    }
 }
