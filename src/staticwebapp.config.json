@@ -1,10 +1,6 @@
 {
     "routes": [
         {
-            "route": "/calendar.html",
-            "rewrite": "/index.html"
-        },
-        {
             "route": "/.well-known/did-configuration.json",
             "rewrite": "/did-configuration.json"
         },
@@ -17,6 +13,6 @@
     ]
     ,
         "navigationFallback": {
-          "rewrite": "/did-configuration.json"
+          "rewrite": "/index.html"
     }
 }
