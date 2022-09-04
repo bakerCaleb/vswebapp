@@ -1,3 +1,4 @@
 {
-    "route": "/profile/index.html"    
-}
+    "route": "/calendar.html",
+    "rewrite": "/index.html"
+  }
