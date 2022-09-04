@@ -1,0 +1,48 @@
+{
+  "id": "did:web:green-grass-0cb2fb81e.1.azurestaticapps.net",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:green-grass-0cb2fb81e.1.azurestaticapps.net"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://green-grass-0cb2fb81e.1.azurestaticapps.net/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/c4dd255f-30e5-40f6-be9a-ae2e0494cc39"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#377a15fd1fad4c9593cf6b5a7fa7dfb8vcSigningKey-22c43",
+      "controller": "did:web:green-grass-0cb2fb81e.1.azurestaticapps.net",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyJwk": {
+        "crv": "secp256k1",
+        "kty": "EC",
+        "x": "FBrurVlow21JK7_gsBkT15bt_yeITWi3qbNtNpLLeiI",
+        "y": "3WE4rZW4iM_eNJPtQaiTFv2WKmoavRIBwY2a6OwiPU0"
+      }
+    }
+  ],
+  "authentication": [
+    "#377a15fd1fad4c9593cf6b5a7fa7dfb8vcSigningKey-22c43"
+  ],
+  "assertionMethod": [
+    "#377a15fd1fad4c9593cf6b5a7fa7dfb8vcSigningKey-22c43"
+  ]
+}

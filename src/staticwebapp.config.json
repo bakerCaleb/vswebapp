@@ -10,8 +10,8 @@
         },
         
         {
-            "route": "/test/index.html",
-            "rewrite": "/index.html"
+            "route": "/.well-known/did.json",
+            "rewrite": "/did.json"
         }
        
     ]
